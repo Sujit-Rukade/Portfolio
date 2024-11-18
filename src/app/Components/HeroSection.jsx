@@ -2,12 +2,13 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
-        <div className='col-span-7 place-self-center text-center sm:text-left'>
+        <motion.div initial={{opacity:0, scale:0}} animate={{opacity:1, scale:1}} transition={{duration: 1.5}} className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span>Hello, I&apos;m{" "}</span>
             <br></br>
@@ -29,7 +30,7 @@ const HeroSection = () => {
             />
           </h1>
 
-          <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ullam deserunt consequuntur sed exercitationem veritatis, dignissimos magnam numquam? Minus, quaerat.</p>
+          <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>I am a Frontend Developer skilled in React.js and modern web technologies, with a passion for Machine Learning applications that solve real-world challenges. I specialize in creating dynamic user interfaces and innovative solutions.</p>
           <div>
 
 
@@ -54,18 +55,18 @@ const HeroSection = () => {
               </button>
             </a>
           </div>
-        </div>
-        <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+        </motion.div>
+        <motion.div initial={{opacity:0, scale:0}} animate={{opacity:1, scale:1}} transition={{duration: 1}} className='col-span-4 place-self-center mt-4 lg:mt-0'>
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[500px] lg:h-[500px] relative">
             <Image
               src="/images/hero-img.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
