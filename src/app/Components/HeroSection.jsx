@@ -12,23 +12,23 @@ const HeroSection = () => {
             <span>Hello, I&apos;m{" "}</span>
             <br></br>
             <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Sujit Rukade',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Web Developer',
-        1000,
-        'ML Enthusiast',
-        1000
-      ]}
-      wrapper="span"
-      speed={50}
-      style={{display: 'inline-block'}}
-      repeat={Infinity}
-      className='text-violet-600'
-    />
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                'Sujit Rukade',
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Web Developer',
+                1000,
+                'ML Enthusiast',
+                1000
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ display: 'inline-block' }}
+              repeat={Infinity}
+              className='text-violet-600'
+            />
           </h1>
-          
+
           <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ullam deserunt consequuntur sed exercitationem veritatis, dignissimos magnam numquam? Minus, quaerat.</p>
           <div>
 
@@ -40,12 +40,19 @@ const HeroSection = () => {
               <div
                 className="absolute top-0 right-full w-full h-full bg-red-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
               />
-              <a href="https://www.linkedin.com/in/aditya-more-9a095422a/" target="_blank">
+              <a href="https://www.linkedin.com/in/sujit-rukade-509308258/" target="_blank">
                 <h4 className="relative z-9">Get in touch &rarr;</h4>
               </a>
             </button>
 
-            <button className='px-6 py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white border border-white mt-3 sm:w-fit'>Download CV</button>
+            <a
+              href='/Resume/Sujit_Rukade_Resume_draft_1.pdf' // path to your file in the public folder
+              download='Sujit_Rukade_Resume.pdf' // the name you want to give the downloaded file
+            >
+              <button className='px-6 py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white border border-white mt-3 sm:w-fit'>
+                Download CV
+              </button>
+            </a>
           </div>
         </div>
         <div className='col-span-4 place-self-center mt-4 lg:mt-0'>
