@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: "Pulzion'24 Submission Platform",
-        description: "Project 1 description",
+        description: " A streamlined web application built for event participants to submit their entries.",
         image: "/images/projects/submission.png",
         tag: ["All", "Web"],
         gitUrl: "https://submissions.pulzion.co.in/",
@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: "OCR Web Application",
-        description: "Project 2 description",
+        description: "A tool designed to extract text from images accurately, enabling digital text conversion for easier data handling.",
         image: "/images/projects/ocr.png",
         tag: ["All", "Web", "Machine Learning"],
         gitUrl: "https://github.com/Sujit-Rukade/OCR-Web-App",
@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: "WhatsApp Text Analyzer",
-        description: "Project 3 description",
+        description: "An interactive platform for analyzing WhatsApp chat data, providing insights through visualizations and statistics.",
         image: "/images/projects/wp.png",
         tag: ["All", "Web", "Machine Learning"],
         gitUrl: "https://github.com/Sujit-Rukade/WhatsApp-Text-Analyzer",
@@ -35,7 +35,7 @@ const projectsData = [
     {
         id: 4,
         title: "Dialogue Summarizer",
-        description: "Project 4 description",
+        description: "A text summarization app leveraging the Pegasus transformer model to generate concise summaries of conversational data.",
           image: "/images/projects/summarizer.png",
         tag: ["All", "Web", "Machine Learning"],
         gitUrl: "https://github.com/Sujit-Rukade/Text-Summarizer",
@@ -44,7 +44,7 @@ const projectsData = [
     {
         id: 5,
         title: "Loan Approval Prediction",
-        description: "Loan Approval Prediction",
+        description: "A machine learning project to predict loan approvals using data analysis and classification models.",
           image: "/images/projects/loan.png",
         tag: ["All", "Machine Learning"],
         gitUrl: "https://github.com/Sujit-Rukade/Loan_Approval_Prediction",

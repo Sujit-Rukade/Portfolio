@@ -14,9 +14,8 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 'Sujit Rukade',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000, 
                 'Web Developer',
                 1000,
                 'ML Enthusiast',
@@ -47,8 +46,8 @@ const HeroSection = () => {
             </button>
 
             <a
-              href='/Resume/Sujit_Rukade_Resume_draft_1.pdf' // path to your file in the public folder
-              download='Sujit_Rukade_Resume.pdf' // the name you want to give the downloaded file
+              href='/Resume/Sujit_Rukade_Resume.pdf' 
+              download='Sujit_Rukade_Resume.pdf' 
             >
               <button className='px-6 py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white border border-white mt-3 sm:w-fit'>
                 Download CV
