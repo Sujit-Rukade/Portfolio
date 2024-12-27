@@ -16,6 +16,15 @@ const projectsData = [
     },
     {
         id: 2,
+        title: "FinTracker (AI Finance Tracker)",
+        description: "A comprehensive financial tracking app that leverages AI for receipt scanning, budget alerts, and monthly reports, integrating advanced security features and automation for enhanced user experience and data insights.",
+        image: "/images/projects/ai.png",
+        tag: ["All", "Web", "Machine Learning"],
+        gitUrl: "https://github.com/Sujit-Rukade/FinTracker",
+        previewUrl: "https://fintracker-app.vercel.app/",
+    },
+    {
+        id: 3,
         title: "OCR Web Application",
         description: "A tool designed to extract text from images accurately, enabling digital text conversion for easier data handling.",
         image: "/images/projects/ocr.png",
@@ -24,7 +33,7 @@ const projectsData = [
         previewUrl: "/"
     },
     {
-        id: 3,
+        id: 4,
         title: "WhatsApp Text Analyzer",
         description: "An interactive platform for analyzing WhatsApp chat data, providing insights through visualizations and statistics.",
         image: "/images/projects/wp.png",
@@ -33,7 +42,7 @@ const projectsData = [
         previewUrl: "/"
     },
     {
-        id: 4,
+        id: 5,
         title: "Dialogue Summarizer",
         description: "A text summarization app leveraging the Pegasus transformer model to generate concise summaries of conversational data.",
           image: "/images/projects/summarizer.png",
@@ -42,7 +51,7 @@ const projectsData = [
         previewUrl: "/"
     },
     {
-        id: 5,
+        id: 6,
         title: "Loan Approval Prediction",
         description: "A machine learning project to predict loan approvals using data analysis and classification models.",
           image: "/images/projects/loan.png",
