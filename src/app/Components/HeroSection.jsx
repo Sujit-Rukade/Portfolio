@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
-        <motion.div initial={{opacity:0, scale:0}} animate={{opacity:1, scale:1}} transition={{duration: 1.5}} className='col-span-7 place-self-center text-center sm:text-left'>
+        <motion.div initial={{opacity:0, scale:0}} animate={{opacity:1, scale:1}} transition={{duration: 1}} className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span>Hello, I&apos;m{" "}</span>
             <br></br>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             />
           </h1>
 
-          <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>I am a Frontend Developer skilled in React.js and modern web technologies, with a passion for Machine Learning applications that solve real-world challenges. I specialize in creating dynamic user interfaces and innovative solutions.</p>
+          <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl'>I am a Web Developer skilled in React.js and modern web technologies, with a passion for Machine Learning applications that solve real-world challenges. I specialize in creating dynamic user interfaces and innovative solutions.</p>
           <div>
 
 
@@ -38,7 +38,7 @@ const HeroSection = () => {
               className="blueShadow mx-4 lg:mr-4 lg:ml-0 text-base sm:text-lg md:text-xl lucida relative overflow-hidden px-6 py-3 group rounded-full bg-gradient-to-br from-orange-300 via-violet-500 to-blue-800 hover:bg-slate-400 text-white"
             >
               <div
-                className="absolute top-0 right-full w-full h-full bg-red-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+                className="absolute top-0 right-full w-full h-full bg-red-400 opacity-20 group-hover:translate-x-full z-0 duration-100"
               />
               <a href="https://www.linkedin.com/in/sujit-rukade-509308258/" target="_blank">
                 <h4 className="relative z-9">Get in touch &rarr;</h4>
