@@ -38,7 +38,7 @@ const SkillsSection = () => {
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
-                    <img className="w-full h-auto" src="https://github-readme-streak-stats.herokuapp.com?user=Sujit-Rukade&theme=dark&background=EB545400&ring=7C3AED&currStreakLabel=7C3AED" alt="GitHub Streak"/>
+                    <img className="w-full h-auto" src="https://github-readme-streak-stats-bay-five.vercel.app?user=Sujit-Rukade&theme=dark&background=EB545400&ring=7C3AED&currStreakLabel=7C3AED" alt="GitHub Streak"/>
                 </ItemLayout>
 
                 <ItemLayout className={"col-span-full md:col-span-6 !p-0 border border-white"}>
